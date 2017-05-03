@@ -1,0 +1,2 @@
+# Exclude OSX cruft
+.DS_Store
