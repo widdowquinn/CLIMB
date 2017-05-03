@@ -2,7 +2,7 @@
 
 # README.md
 
-This repository contains notes about setting up servers on `CLIMB`, the MRC cloud infrastructure for microbial bioinforamtics.
+This repository contains notes about setting up servers on `CLIMB`, the MRC cloud infrastructure for microbial bioinformatics. The instructions are not intended to be very general outwith the context of microbial bioinformatics at the James Hutton Institute, but they may be of use to some others.
 
 * [`CLIMB` homepage](http://www.climb.ac.uk/)
 
@@ -77,6 +77,8 @@ Having logged in to the server by SSH:
 * `Emacs`: `sudo apt-get install emacs`
 
 ### Clone this repository
+
+Having logged in to the server with SSH, and in your home directory, clone this repository locally:
 
 * `git clone https://github.com/widdowquinn/CLIMB.git`
 
