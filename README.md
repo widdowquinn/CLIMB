@@ -7,11 +7,21 @@ This repository contains notes about setting up servers on `CLIMB`, the MRC clou
 * [`CLIMB` homepage](http://www.climb.ac.uk/)
 
 
+## Table of Contents
+
+1. [Starting a server](#startup)
+2. [Accessing a server](#access)
+3. [Things to do when you start](#configure)
+4. [`Galaxy`](#galaxy)
+
+
 ## Online Tutorials and Documentation
 
 * [Accessing `CLIMB` and Setup](https://discourse.climb.ac.uk/t/accessing-climb-and-setup/172)
 
-## Starting a server
+
+<a id="startup"></a>
+## 1. Starting a server
 
 ### Genomics Virtual Laboratory Server
 
@@ -29,7 +39,8 @@ After a short pause, the new server will appear under the `Running servers at <L
 * The `Options` drop-down allows you to start, stop, reboot, or terminate the server. 
 * Terminating a server deletes it from `CLIMB`.
 
-## Accessing the server
+<a id="access"></a>
+## 2. Accessing the server
 
 At the `Dashboard` - [`https://bryn.climb.ac.uk/`](https://bryn.climb.ac.uk/) - you will see your running servers. Each one has a clickable IP address.
 
@@ -38,8 +49,8 @@ At the `Dashboard` - [`https://bryn.climb.ac.uk/`](https://bryn.climb.ac.uk/) - 
 
 **NOTE:** it can take some time for all the services to come up, when the server is first created.
 
-
-## Things to do when you start
+<a id="configure"></a>
+## 3. Things to do when you start
 
 By default, the `user` servers install `Jupyterhub` and `RStudio`, but the `group` servers do not. These are GVL pacakages and can be installed as described below.
 
@@ -77,7 +88,8 @@ We want to make useful bioinformatics/scientific packages available to `Jupyterh
 * To see what will be installed, use `less requirements.txt`
 * `sudo pip install -r requirements.txt`
 
-## `Galaxy`
+<a id="galaxy"></a>
+## 4. `Galaxy`
 
 ### Set up `Galaxy` administrator account
 
