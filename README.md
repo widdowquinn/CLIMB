@@ -72,5 +72,38 @@ Having logged in to the server by SSH:
 
 We want to make useful bioinformatics/scientific packages available to `Jupyterhub`. These can be installed with `pip`, using the `requirements.txt` from this repository.
 
+* Change directory to the cloned repository: `cd ~/CLIMB`
 * To see what will be installed, use `less requirements.txt`
 * `sudo pip install -r requirements.txt`
+
+## `Galaxy`
+
+### Set up `Galaxy` administrator account
+
+`Galaxy` should have been started by `CloudMan` when the server started. To set yourself up as an administrator on `Galaxy`, follow the instructions below, from teh server GVL dashboard.
+
+* Follow the access link to `Galaxy`
+* Select `User - Register` from the `Galaxy` top menu bar
+* Add yourself as a user
+* Return to the server GVL dashboard
+* Follow the access link to `CloudMan`
+* Click on `Admin` (upper right corner)
+* Add your email address in the `Set Galaxy admin users` field
+* Refresh the page: you should see that your email address is now one of the current Galaxy admins
+
+### Upload dataset to `Galaxy` shared data
+
+From the `Analyze Data` page of `Galaxy`, while logged in to your account, follow the instructions below:
+
+* Click on `Get Data -> Upload File`
+* Click on the `Choose local file` button, and select the files you wish to upload
+* Click on `Start`. The upload process will begin, and your history panel will be populated with files
+* Rename and save the history (optional)
+
+To put the uploaded files into a shared data folder:
+
+* Click on `Shared Data -> Data Libraries`
+* Create a new library, if necessary. Otherwise select an existing library
+* Click on `Add datasets to current folder -> from History`
+* Select the appropriate history, and the appropriate files, and click `Add`
+
