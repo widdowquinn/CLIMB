@@ -1,4 +1,5 @@
 <img src="images/JHI_STRAP_Web.png" style="width: 150px; float: right;">
+
 # README.md
 
 This repository contains notes about setting up servers on `CLIMB`, the MRC cloud infrastructure for microbial bioinforamtics.
