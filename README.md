@@ -66,4 +66,11 @@ Having logged in to the server by SSH:
 
 ### Clone this repository
 
-* `git clone 
+* `git clone https://github.com/widdowquinn/CLIMB.git`
+
+### Add `Python` packages
+
+We want to make useful bioinformatics/scientific packages available to `Jupyterhub`. These can be installed with `pip`, using the `requirements.txt` from this repository.
+
+* To see what will be installed, use `less requirements.txt`
+* `sudo pip install -r requirements.txt`

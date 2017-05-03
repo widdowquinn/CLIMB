@@ -1,0 +1,5 @@
+seaborn
+networkx
+biopython
+bioservices
+pyani
